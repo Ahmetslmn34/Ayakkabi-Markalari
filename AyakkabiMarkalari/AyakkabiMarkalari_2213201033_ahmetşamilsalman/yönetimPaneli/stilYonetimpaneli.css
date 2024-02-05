@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #DDF8FF;
+}
+#disAlan {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #000;
+	height: 40px;
+	width: 1000px;
+	padding-top: 10px;
+	text-align:center;
+}
+#navigasyon {
+	height: 30px;
+	width: 1000px;
+	background-image: url(resimler/bg_navi.png);
+}
+#adsoyad {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	float: left;
+	color: #33C;
+}
+#gorevi {
+	color: #C36;
+	float: left;
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+#icerik {
+	height: auto;
+	width: 1000px;
+}
+#butonlar {
+	float: left;
+	height: auto;
+	width: 250px;
+	background-image: url(resimler/bg_butonlar.png);
+}
+#ic
+{
+	height: auto;
+	width: 745px;
+	float: left;
+	background-image: url(resimler/bg_icerik.png);
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#butonlar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#butonlar ul li {
+}
+#butonlar ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 25px;
+	width: 200px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	padding-top: 5px;
+	background-image: url(resimler/bg_buton.png);
+	color: #FFF;
+}
+#butonlar ul li a:hover {
+	color: #000;
+}

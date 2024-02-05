@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="yonetimPaneli.master.cs" Inherits="AyakkabiMarkalari_2213201033_ahmetşamilsalman.yönetimPaneli.yonetimPaneli" %>
+
+<!DOCTYPE html>
+
+<html>
+<link href="stilYonetimpaneli.css" rel="stylesheet" />
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+<div id="disAlan">
+<div id="banner">Yönetim Paneli</div>
+<div id="navigasyon">
+<div id="adsoyad">Ad Soyad: Ahmet Şamil SALMAN </div>
+<div id="gorevi">Görevi: Yönetici</div>
+</div>
+<div id="icerik">
+<div id="butonlar">
+  <ul>
+    <li><a href="grupYonetimi.aspx">Grup Yönetimi</a></li>
+    <li><a href="#">Admin Yönetimi</a></li>
+
+  </ul>
+</div>
+<div id="ic">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      </asp:ContentPlaceHolder>
+    </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+    </form>
+</body>
+</html>
